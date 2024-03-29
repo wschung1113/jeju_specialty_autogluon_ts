@@ -1,6 +1,6 @@
 # DACON 제주 특산물  가격 예측 AI 경진대회 (연습) with AutoGluon-ts library
 
-### reference
+### reference:
 
 1. https://dacon.io/competitions/official/236176/codeshare/9188?page=3&dtype=recent
 
@@ -8,7 +8,7 @@
 
 basslibrary 님의 베이스 코드를 기반으로 개인적인 추가 실험 몇 가지를 진행해봤습니다.
 
-### task
+### task:
 
 2019년 1월 1일~2023년 3월 3일까지의 품목별 일별 가격 데이터를 가지고 2023년 3월 4일-2023년 3월 31일까지의 각 품목의 가격을 예측해보는 문제입니다.
 
