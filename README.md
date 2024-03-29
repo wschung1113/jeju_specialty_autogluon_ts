@@ -49,7 +49,7 @@ Preset별로 다양한 모델을 손쉽게 접할 수 있는 AutoML library입�
 
 Public score는 730점으로 하나의 past covariate만을 사용한 첫번째 실험 방식이 제일 나은 성능을 보였습니다. Tree 기반 regression 모델을 사용해서 시계열을 테이블 데이터처럼 분석한 저의 다른 프로젝트는 650점대의 public score가 나온 것에 비해 저조하다고 할 수 있습니다.
 
-![submission_autogluon_ts.png]()
+![submission_autogluon_ts.png](https://github.com/wschung1113/jeju_specialty_autogluon_ts/blob/main/submission_autogluon_ts.png)
 
 일단 두번째 풀옵션 실험에 비해 첫번째 실험의 결과가 월등히 좋았던 것에 대한 하나의 이유를 말하자면 너무 많은 feature를 제공한 것이라고 생각합니다. 시계열의 각 시점 가격과 covariate들을 테이블의 한 행으로 상정하여 분석하는 CatBoostRegressor나 XGBoostRegressor의 경우 제공되는 feature는 이번 프로젝트에서 많아야 30~40개였습니다. 그러나 시계열의 경우, 각 look-back window의 시점 하나하나에 각 시점의 feature 차원을 곱한 값이 총 feature volume과 상응한다고 생각하여 섣불리 각 시점의 covariate 차원을 늘리거나 look-back window를 늘리면 안되겠다는 생각을 했습니다. 또한 모델 복잡도를 높여 많은 feature들을 소화할 수 있는 크기로 만들어야 겠다고 생각했습니다.
 
