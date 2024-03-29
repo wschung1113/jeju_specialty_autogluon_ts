@@ -1,6 +1,6 @@
 # DACON 제주 특산물  가격 예측 AI 경진대회 (연습)
 
-### 참조: https://dacon.io/competitions/official/236176/codeshare/9381?page=1&dtype=recent
+### 참조: https://dacon.io/competitions/official/236176/codeshare/9188?page=3&dtype=recent
 
 private 1등을 하신 저어어어어엉 님의 코드를 실험하고 개인적인 추가 실험 몇 가지를 진행해봤습니다.
 
